@@ -47,6 +47,16 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Calculator specific colors
+        calc: {
+          display: "hsl(var(--calc-display-bg))",
+          number: "hsl(var(--calc-number-btn))",
+          "number-hover": "hsl(var(--calc-number-btn-hover))",
+          operator: "hsl(var(--calc-operator-btn))",
+          "operator-hover": "hsl(var(--calc-operator-btn-hover))",
+          special: "hsl(var(--calc-special-btn))",
+          "special-hover": "hsl(var(--calc-special-btn-hover))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +72,20 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-accent": "var(--gradient-accent)",
+        "gradient-background": "var(--gradient-background)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "glow": "var(--shadow-glow)",
+        "button": "var(--shadow-button)",
+        "display": "var(--shadow-display)",
+      },
+      transitionTimingFunction: {
+        "smooth": "var(--transition-smooth)",
       },
       keyframes: {
         "accordion-down": {
