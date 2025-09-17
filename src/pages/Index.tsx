@@ -7,7 +7,7 @@ const Index = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-4">
-            Premium Calculator
+            Shadcn Calculator
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
             A beautiful, responsive calculator with modern design and smooth animations
